@@ -33,7 +33,7 @@
   <div class="card">
     <h3>Hitung Kuadrat</h3>
     <input type="number" id="angka" placeholder="Masukkan angka...">
-    <button onclick="hitungKuadrat()">Hitung</button>
+    <button class="hitKuadrat" onclick="hitungKuadrat()">Hitung</button>
     <p id="hasil"></p>
   </div>
 
@@ -88,8 +88,13 @@
       if (inputAngka === "") {
         hasil.innerHTML = "Masukkan angka terlebih dahulu.";
       } else {
-        hitKuadrat = inputAngka * inputAngka;
-        hasil.innerHTML = `Hasil kuadrat dari ${inputAngka} adalah ${hitKuadrat}`;
+        if (inputAngka % 2 === 0){
+          hitKuadrat = inputAngka * inputAngka;
+          hasil.innerHTML = `Hasil kuadrat dari ${inputAngka} adalah ${hitKuadrat}`;
+        }else{
+          hasil.innerHTML = `Hanya menerima inputan angka genap.`;
+        }
+        
       }
     }    
   </script>

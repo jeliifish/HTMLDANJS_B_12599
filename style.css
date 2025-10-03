@@ -88,6 +88,13 @@ button {
   transition: background 0.3s ease;
 }
 
+button.hitKuadrat {
+  background-color: rgb(88, 236, 123);
+}
+button.hitKuadrat:hover {
+  background-color: rgb(64, 169, 89);
+}
+
 button:hover {
   background: #2980b9;
 }
@@ -218,7 +225,7 @@ header {
   padding: 20px;
   margin: 30px auto;
   width: 100%;
-  max-width: 400px;
+  max-width: 2000px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: transform 0.3s ease;
@@ -254,7 +261,7 @@ header {
   padding: 20px;
   margin: 30px auto;
   width: 100%;
-  max-width: 800px;
+  max-width: 2000px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -271,7 +278,7 @@ header {
 }
 
 .schedule-table th {
-  background: #3498db;
+  background: #34dbae;
   color: white;
   font-weight: 600;
 }
