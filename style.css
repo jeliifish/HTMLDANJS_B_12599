@@ -59,7 +59,7 @@ p a:hover {
   transition: background-color 0.3s ease;
 }
 
-/* Styles for JSBasic_A_12111.html */
+/* Styles for JSBasic_A_12599.html */
 .card {
   background: #ffffff;
   border-radius: 12px;
@@ -117,7 +117,7 @@ input[type="number"]:focus {
   color: #34495e;
 }
 
-/* Styles for HtmlForm_A_12111.html */
+/* Styles for HtmlForm_A_12599.html */
 form {
   width: 90%;
   max-width: 600px;
@@ -153,6 +153,7 @@ input[type="file"],
 textarea,
 select {
   width: 100%;
+  max-width: 400px;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 3px;
@@ -199,7 +200,7 @@ input[type="submit"]:hover {
   background-color: #0056b3;
 }
 
-/* Styles for HtmlCssBasic_A_12111.html */
+/* Styles for HtmlCssBasic_A_12599.html */
 header {
   background: linear-gradient(90deg, #2c3e50, #4a69bd);
   color: white;
